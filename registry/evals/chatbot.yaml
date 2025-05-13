@@ -1,0 +1,6 @@
+custom.chatbot_general_knowledge:
+  description: Evaluation of chatbot on general knowledge questions.
+  args:
+    test_jsonl: chat_eval/data/general_knowledge.jsonl
+  completion_fns: [chatbot]
+  class: chat_eval.chat_eval:ChatBotEval

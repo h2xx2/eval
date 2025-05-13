@@ -1,0 +1,2 @@
+chatbot:
+  class: chat_eval.chat_completion:ChatBotCompletionFn

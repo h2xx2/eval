@@ -1,0 +1,10 @@
+[project]
+name = "chat_eval"
+version = "0.1.0"
+description = "Evaluation tools for chat"
+authors = [{name = "Your Name"}]
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
